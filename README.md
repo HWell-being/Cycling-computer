@@ -41,7 +41,7 @@ A homemade bicycle computer
 
 
 
-​     蓝牙         		    STM32
+​     GPS        		    STM32
 +------------+                
 |        	   |          +-----------------+
 | TXD ----|------- | 	PB10         |
