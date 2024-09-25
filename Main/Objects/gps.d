@@ -28,3 +28,10 @@
 .\objects\gps.o: .\Library\stm32f10x_usart.h
 .\objects\gps.o: .\Library\stm32f10x_wwdg.h
 .\objects\gps.o: .\Library\misc.h
+.\objects\gps.o: Hardware\W25Q64.h
+.\objects\gps.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gps.o: Hardware\OLED.h
+.\objects\gps.o: Hardware\Serial.h
+.\objects\gps.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\gps.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\gps.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h

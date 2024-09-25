@@ -31,3 +31,9 @@
 .\objects\main.o: .\System\Delay.h
 .\objects\main.o: .\Hardware\OLED.h
 .\objects\main.o: .\Hardware\W25Q64.h
+.\objects\main.o: .\Hardware\MPU6050.h
+.\objects\main.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\main.o: .\System\Timer.h
+.\objects\main.o: .\Hardware\GPS.h
+.\objects\main.o: .\Hardware\Serial.h

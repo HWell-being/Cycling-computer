@@ -625,6 +625,16 @@
               <FileType>5</FileType>
               <FilePath>.\System\Delay.h</FilePath>
             </File>
+            <File>
+              <FileName>Timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\System\Timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>Timer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\System\Timer.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -746,16 +756,6 @@
               <FilePath>.\Hardware\W25Q64_Ins.h</FilePath>
             </File>
             <File>
-              <FileName>GPS.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Hardware\GPS.c</FilePath>
-            </File>
-            <File>
-              <FileName>GPS.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Hardware\GPS.h</FilePath>
-            </File>
-            <File>
               <FileName>MPU6050.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Hardware\MPU6050.c</FilePath>
@@ -779,6 +779,26 @@
               <FileName>MyI2C.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Hardware\MyI2C.h</FilePath>
+            </File>
+            <File>
+              <FileName>GPS.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\GPS.c</FilePath>
+            </File>
+            <File>
+              <FileName>GPS.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Hardware\GPS.h</FilePath>
+            </File>
+            <File>
+              <FileName>Serial.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\Serial.c</FilePath>
+            </File>
+            <File>
+              <FileName>Serial.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Hardware\Serial.h</FilePath>
             </File>
           </Files>
         </Group>

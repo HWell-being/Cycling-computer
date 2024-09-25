@@ -30,3 +30,5 @@
 .\objects\mpu6050.o: .\Library\misc.h
 .\objects\mpu6050.o: Hardware\MyI2C.h
 .\objects\mpu6050.o: Hardware\MPU6050_Reg.h
+.\objects\mpu6050.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\mpu6050.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h

@@ -1,6 +1,8 @@
 #include "stm32f10x.h"                  // Device header
 #include "MyI2C.h"
 #include "MPU6050_Reg.h"
+#include "math.h"
+#include "stdio.h"
 
 #define MPU6050_ADDR	0xD0
 
@@ -88,4 +90,16 @@ void MPU6050_GetData(int16_t *AccX, int16_t *AccY, int16_t *AccZ,
 	*GyroZ = (DataH << 8) | DataL;
 }
 
+void DisplaySlopeAngle(void)
+{
+    int16_t AccX, AccY, AccZ;
+	float angle;
+	extern  char angleStr[10];
 
+    MPU6050_GetData(&AccX, &AccY, &AccZ, 0, 0, 0);
+    
+    angle = atan2f((float)AccX, sqrtf((float)AccY * AccY + (float)AccZ * AccZ)) * 180 / 3.14159265f;
+    
+    snprintf(angleStr, sizeof(angleStr), "%.2f", angle);
+    
+}
